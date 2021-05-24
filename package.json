@@ -1,0 +1,17 @@
+{
+	"name": "product-page",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "parcel serve ./src/index.html",
+		"build": "parcel build ./src/index.html"
+	},
+	"devDependencies": {
+		"@parcel/transformer-sass": "2.0.0-beta.2",
+		"parcel": "^2.0.0-beta.2"
+	},
+	"dependencies": {
+		"gsap": "^3.6.1"
+	}
+}
